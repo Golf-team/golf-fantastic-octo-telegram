@@ -106,7 +106,7 @@ const gameData = [
     },
     {
         gameUrl1: "https://marvin-2056.github.io/Delta-CIS-367/",
-        gameUrl2: "#",
+        gameUrl2: "",
         gameName1: "Delta Lab Spirit animal ",
         gameName2: "N/A",   
         gameAuthor: "Marvin De La Cruz"
