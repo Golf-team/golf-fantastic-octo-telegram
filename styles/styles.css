@@ -1,17 +1,23 @@
 body {
-  font-family: "Audiowide", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
+    font-family: "Audiowide", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #2A2A2A;
+    color: #78F866;
+  }
 
-a:link {
-    color: gold;
-    background-color: transparent;
-    text-decoration: none;
+  #gameSelect {
+    background-color: #A7FF46;
   }
   
-a:visited {
-    color: gold;
-    background-color: transparent;
-    text-decoration: none;
-  }
+  a:link {
+      color: #A7FF46;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+  a:visited {
+      color: #78F866;
+      background-color: transparent;
+      text-decoration: none;
+    }
