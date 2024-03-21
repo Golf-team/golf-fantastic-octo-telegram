@@ -16,52 +16,41 @@
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
         <script src="scripts/scripts.js"></script>
     </head>
-    <body class="bg-dark">
+    <body >
         <!-- Page content-->
         <div class="container-fluid d-flex flex-column min-vh-100">
             <!-- Headers Example -->
             <div class="row mt-4">
-                <div class="col-12 mb-4 text-center text-info">
+                <div class="col-12 mb-4 text-center">
                     <h1>Retro Game Library</h1> 
                     <h2>Created By: Jacob Parry, Mackenzie Thompson, and Hayden Duran</h2>                   
                 </div>
             </div>
             <div class="row">
-                <span class="border border-warning border-4"></span>
+                <span class="border border-yellow border-4"></span>
             </div>
             <div class="row flex-grow-1">
-                <div class="col-4 p-4 text-info">    
+                <div class="col-4 p-4">    
                     <h2><i class="bi bi-joystick"></i> Game Choice Instructions:</h2>
                     <h4 class="mt-4">1. Use the Select Menu to Choose a Dev.</h4>
                     <h4>2. Devs are sorted by alphabetical order.</h4>
                     <h4>3. Enjoy 2 games from each dev!</i></h4>
                     <br>
                     <!-- Selector and Options -->
-                    <select class="form-select bg-info mt-3" id="">
-                        <option>No Selection</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>4</option>
-                        <option>4</option>
-                        <option>4</option>
-                        <option>4</option>
-                        <option>4</option>
-                    </select>
-                    <h2><button class="mt-3 btn btn-info" id="">Load Game</button> <i class="bi bi-arrow-clockwise mt-2"></i></h2>
+                    <select id="gameSelect" class="form-select mt-3" id=""></select>
                     
                 </div>
                 <!-- Game 1 display -->
                 <div class="col-8 p-0 m-0 g-0">
-                    <iframe src="https://michaelhaydenduran.github.io/silly-dino-charlie/" height="100%" width="100%" id="theIframe"> </iframe>
+                    <iframe id="gameTube" src="" height="100%" width="100%" id="theIframe"> </iframe>
                 </div>
                 <!-- Game 2 display --> 
             </div>
             <!--Footer-->  
             <div class="row">
-                <span class="border border-warning border-4"></span>
+                <span class="border border-yellow border-4"></span>
                 <div class="col-12">
-                    <div class="text-center text-info p-2">
+                    <div class="text-center p-2">
                         <h3 class="mb-2 pb-0"><i class="bi bi-c-circle me-2"></i>2024 Game Library</h3>
                         <a href="https://github.com/mackenzie24t" target="_blank" type="button" class="btn btn-outline-secondary btn-lg">Mackenzie Profile</a>
                         <a href="https://github.com/MichaelHaydenDuran" target="_blank" type="button" class="btn btn-outline-secondary btn-lg">Hayden Profile</a>
@@ -71,5 +60,12 @@
                 </div>
             </div>           
         </div>
+
+        <!-- scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+        <script  src="scripts/data.js"></script>
+        <script  src="scripts/gameData.js"></script>
     </body>
 </html>
